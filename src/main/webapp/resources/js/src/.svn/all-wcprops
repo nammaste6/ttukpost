@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/discoveryanalytics/!svn/ver/1080/trunk/sample/gengine/src/main/webapp/resources/js/src
+END
+ChartGenerator.js
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/discoveryanalytics/!svn/ver/1080/trunk/sample/gengine/src/main/webapp/resources/js/src/ChartGenerator.js
+END
+PreviewChartData.js
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/discoveryanalytics/!svn/ver/1002/trunk/sample/gengine/src/main/webapp/resources/js/src/PreviewChartData.js
+END
+HChartTool.js
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/discoveryanalytics/!svn/ver/1078/trunk/sample/gengine/src/main/webapp/resources/js/src/HChartTool.js
+END
+ChartDataRest.js
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/discoveryanalytics/!svn/ver/1001/trunk/sample/gengine/src/main/webapp/resources/js/src/ChartDataRest.js
+END
+ChartTemplate.js
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/discoveryanalytics/!svn/ver/1001/trunk/sample/gengine/src/main/webapp/resources/js/src/ChartTemplate.js
+END

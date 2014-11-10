@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="net.startup.mapper.MainMapper">
+	
+	<select id="getAllClient">
+		select * from client;
+	</select>
+	
+	<select id="getClientById" parameterType="int" resultType="net.startup.vo.ClientVO">
+		select * from client where idx=#{idx}
+	</select>
+	
+	<select id="getClientByInfo" parameterType="net.startup.vo.ClientVO" resultType="net.startup.vo.ClientVO">
+		select * from client where id=#{id} and password=#{password}
+	</select>
+	
+	<select id="getAllGraphByClientId" parameterType="int" resultType="net.startup.vo.ThermalVO">
+		select * from thermal where client_index=#{client_index} order by temp desc;
+	</select>
+	
+	<select id="getGraphForTime" resultType="net.startup.vo.ThermalVO">
+		select  * from thermal order by temp desc  limit 1;
+	</select>
+	
+	<insert id="insertGraph" parameterType="net.startup.vo.ThermalVO">
+		insert into thermal(device, client_index, temp, date) values(#{device}, #{client_index}, #{temp}, ${date})
+	</insert>
+</mapper>
